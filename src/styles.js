@@ -138,16 +138,17 @@ export const visuallyhiddenMobile = css`
 /* eslint-enable security/detect-object-injection */
 
 export const H1 = styled.h1`
-  font-size: ${theme.font.xxl};
+  border-bottom: 1px solid #af3c43;
+  font-size: 38px;
 `
 
 export const H2 = styled.h2`
-  font-size: ${theme.font.lg};
+  font-size: 36px;
   margin-bottom: 0em;
 `
 
 export const H3 = styled.h3`
-  font-size: ${theme.font.md};
+  font-size: 24px;
 `
 
 const contentSpacing = css`
@@ -194,7 +195,7 @@ export const content = css`
   }
 
   p {
-    font-size: ${theme.font.lg};
+    font-size: ;
   }
 
   .disabled #selectedDays {

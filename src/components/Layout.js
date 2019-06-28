@@ -16,8 +16,8 @@ injectGlobal`
     margin: 0;
     background: ${theme.colour.white};
     height: 100%;
-    font-family: SourceSans, Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    font-family: Noto Sans, sans-serif; 
+    font-size: 20px;
     box-sizing: border-box;
 
     ${mediaQuery.sm(css`
@@ -30,14 +30,21 @@ injectGlobal`
   }
 
   button {
-    font-family: SourceSans, Helvetica, Arial, sans-serif;
+    font-family: Noto Sans, sans-serif; 
   }
 
   *, *:before, *:after {
     box-sizing: inherit;
   }
 
-  body, h1, h2, h3, h4, h5, h6, p, ol, ul, span {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Lato, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+  }
+
+  body, p, ol, ul, span {
     margin: 0;
     padding: 0;
     line-height: 1.4;
